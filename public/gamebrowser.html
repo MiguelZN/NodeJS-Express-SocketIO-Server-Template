@@ -5,10 +5,22 @@
 	<link rel="stylesheet" type="text/css" href="gamebrowser.css">
 </head>
 <body>
-	<div>
-		<p>Hello</p>
+	<div id ="titlelogocontainer" class = "CENTER GROOVE">
+		<img id ="titlelogo" src = "feintiologo2.png">
 	</div>
+
+	<div id= "userlogincontainer" class= "CENTER GROOVE">
+		<b><p id="usernametext" class="FONT1">Username:</p></b>
+
+		<input id = "usernameinput" class ="LEFT FONT2" type="text" name="username" placeholder="Type your in-game name...">
+
+		<button id="playbutton" class="CENTER FONT1">Play</button>
+
+	</div>
+
+	<div id = "canvascontainer" class= "CENTER">
 	<canvas id = "canvas">FallsIO GameWindow</canvas>
+	</div>
 
 </body>
 </html>
